@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#333639"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.github.ahmadnemati.wind.WindView
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:id="@+id/windView"
+        app:barometerTickSpacing="9dp"
+        app:bigPoleX="38dp"
+        app:labelFontSize="12sp"
+        app:numericFontSize="25dp"
+        app:poleBottomY="98dp"
+        app:pressureLineY="73dp"
+        app:pressureTextX="12dp"
+        app:pressureTextY="4dp"
+        app:smallPoleX="75dp"
+        app:windTextX="10dp"
+        app:windTextY="29dp"
+        />
+
+    <Button
+        android:id="@+id/windBtn"
+        android:text="start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
